@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #113275;
+}
+
+
+ul.no-bullet {
+    list-style-type: none;
+    padding: 0;
+}
+
+.basic .no-bullet li {
+    display: flex;
+    gap: 5px;
+}
+
+ul.no-bullet i {
+    margin-right: 5px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+header,
+section,
+section>div {
+    padding: 20px;
+}
+
+/* Header Styles */
+header.basic {
+    background-color: #3ca4e9;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Section Styles */
+section {
+    padding: 10px;
+}
+
+.skills ul li {
+    margin-top: 5px;
+}
+
+
+/* Experience Section Styles */
+.experience h3 {
+    color: #3498db;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+/* Personal Projects Section Styles */
+.personalprojects h1 {
+    color: #3498db;
+}
