@@ -3,8 +3,16 @@
     padding: 0;
 }
 
-a {
-    color: #113275;
+
+a, a:visited {
+    color: #f6f9ff;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+h3 {
+    font-size: 1rem;
 }
 
 
@@ -16,6 +24,11 @@ ul.no-bullet {
 .basic .no-bullet li {
     display: flex;
     gap: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+p {
+    font-size: 15px;
 }
 
 ul.no-bullet i {
@@ -34,7 +47,7 @@ body {
 header,
 section,
 section>div {
-    padding: 20px;
+    padding: .5rem 1rem;
 }
 
 /* Header Styles */
@@ -52,9 +65,11 @@ header.basic {
 
 /* Section Styles */
 section {
-    padding: 10px;
+    padding: .5rem;
 }
-
+.skills h2 {
+    margin-bottom: 1rem;
+}
 .skills ul li {
     margin-top: 5px;
 }
